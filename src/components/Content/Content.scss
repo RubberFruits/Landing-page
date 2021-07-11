@@ -1,0 +1,116 @@
+.content{
+   max-width:90%;
+   margin:0 auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.content__title{
+   font-family: 'Oswald',sans-serif;
+   font-size: 48px;
+   line-height:60px;
+   font-weight:400;
+   height:max-content;
+   margin-top:59px;
+}
+
+.content__text{
+   font-family: 'PT',serif;
+   font-size: 24px;
+   max-width: 50%;
+   margin-top:54px;
+   margin-bottom:55px;
+}
+
+.content__features-title{
+   font-size:18px;
+   font-family: 'PT',serif;
+   font-weight:bold;
+}
+
+.content__features-list__item{
+   margin-left:-20px ;
+   font-size:18px;
+   font-family: 'PT',serif;
+   line-height:27px;
+}
+
+.content__news-title{
+   margin-top:66px;
+   font-family:'Oswald';
+   color:red;
+}
+
+.content__news-container{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.content__news-item-text{
+   max-width:173px;
+   font-family: 'Oswald',sans-serif;
+}
+
+.content__news-item-img-1,
+.content__news-item-img-2,
+.content__news-item-img-3,
+.content__news-item-img-4,
+.content__news-item-img-5,
+.content__news-item-img-6{
+   height:116px;
+   width:173px;
+   background-position: center;
+   background-size: cover;
+   margin-right:13px;
+}
+
+.content__news-item-img-1{
+   background-image: url(../../assets/pictures/1.jpg);
+}
+
+.content__news-item-img-2{
+   background-image: url(../../assets/pictures/2.jpg);
+}
+
+.content__news-item-img-3{
+   background-image: url(../../assets/pictures/3.jpg);
+}
+
+.content__news-item-img-4{
+   background-image: url(../../assets/pictures/4.jpg);
+}
+
+.content__news-item-img-5{
+   background-image: url(../../assets/pictures/5.jpg);
+}
+
+.content__news-item-img-6{
+   background-image: url(../../assets/pictures/6.jpg);
+}
+
+.footer{
+   align-self: flex-end;
+   display: flex;
+}
+
+.footer__icon{
+   background-image: url(../../assets/pictures/up-arrow.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:10px;
+   height:10px;
+   margin-right:10px;
+   margin-top:5px;
+}
+
+.footer__text{
+   font-family: 'Oswald';
+   font-size:14px;
+   color:rgba(40, 40, 40,0.16);
+}
+
+@media (max-width:844px){
+   .content__text{
+      max-width:100%;
+   }
+}
